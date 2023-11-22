@@ -94,7 +94,7 @@ function Login() {
           }}
           // className=" icon-link-hover"
         >
-          Nếu chưa có tài khoản. Đăng kí ngay
+          Nếu chưa có tài khoản. Đăng kí 
         </Link>
 
         <button className="rounded my-2">Đăng nhập</button>

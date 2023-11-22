@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useMutation } from 'react-query';
 import { useNavigate } from 'react-router-dom';
 import { signUp } from '../API/apis';
-
+import "./signup.css"
 function SignUp() {
   const [focused, setFocused] = useState(false);
   const [values, setValues] = useState({
@@ -65,7 +65,7 @@ function SignUp() {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
   return (
-    <div className="login">
+    <div className="signup">
       <form onSubmit={handleSubmit}>
         <h1>Đăng Ký</h1>
         {inputs.map((input, index) => (
@@ -82,7 +82,7 @@ function SignUp() {
             ></input>
           </div>
         ))}
-        <button>Đăng Ký</button>
+        <button style={{borderRadius:10}}>Đăng Ký</button>
       </form>
     </div>
   );
