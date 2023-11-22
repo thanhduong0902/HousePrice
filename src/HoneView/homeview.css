@@ -20,7 +20,15 @@ input{
     margin: 10px 0px;
     border-radius: 5px;
     border: 1px solid gray;
-    width: 600px;
+    width: 250px;
+}
+
+.inputHome{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: auto;
 }
 
 

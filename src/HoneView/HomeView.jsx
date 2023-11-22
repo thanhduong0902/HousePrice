@@ -198,7 +198,7 @@ function HomeView() {
       <div className="forminput" >
             <label>Tên tòa</label>
             <input
-            
+            className='inputHome'
               value={values.nameHouse}
               name='nameHouse'
               placeholder='Tên nhà'
@@ -219,6 +219,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Kích thước</label>
             <input
+            className='inputHome'
               value={values.size}
               name='size'
               placeholder='Kích thước'
@@ -230,6 +231,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Hướng nhà</label>
             <input
+            className='inputHome'
               value={values.directionHouse}
               name='directionHouse'
               placeholder='Hướng nhà'
@@ -250,6 +252,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Số phòng ngủ</label>
             <input
+            className='inputHome'
               value={values.bedroom}
               name='bedroom'
               placeholder='Số phòng ngủ'
@@ -261,6 +264,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Hướng ban công</label>
             <input
+            className='inputHome'
               value={values.directionBalcony}
               name='directionBalcony'
               placeholder='Hướng ban công'
@@ -281,6 +285,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Số WC</label>
             <input
+            className='inputHome'
               value={values.nvs}
               name='nvs'
               placeholder='Số WC'
@@ -292,6 +297,7 @@ function HomeView() {
           <div className="formInput" >
             <label>Nhà đầu tư</label>
             <input
+            className='inputHome'
               value={values.invester}
               name='invester'
               placeholder='Nhà đầu tư'
@@ -317,6 +323,7 @@ function HomeView() {
             <div className="formInput" >
             <label>Giá dự đoán (tỷ)</label>
             <input
+            className='inputHome'
               value={pricePredict}
               name='pricePredict'
               placeholder='Giá'
